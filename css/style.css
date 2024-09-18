@@ -53,7 +53,7 @@ html {
     height: 100%;
     width: 70%;
     color: #fff;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .movie-info-container > *:not(.movie-info-title){
@@ -125,6 +125,11 @@ html {
     align-items: center;
     justify-self: center;
     padding: 1rem;
+    
+}
+
+.movie-info-actions ul li a:hover{
+    transform: scale(1.1);
 }
 
 .movie-info-quote{
@@ -142,7 +147,7 @@ html {
 }
 
 .movie-info-people {
-    margin-top: 8rem;
+    margin-top: 2rem;
     list-style: none;
 }
 
